@@ -12,3 +12,13 @@
 #### Find the last digit on the nth Fibonacci number.
 **Input:** A single integer n (0<=n<=10^7).
 **Output:** The last digit of Fn.
+
+## 4. Greatest commot divisor
+#### Find the greatest common divisor of two integers.
+**Input:** Two integers a and b (1<=a,b<=2*10^9)
+**Output:** Greatest common divisor.
+
+## 5. Least Common Multiple
+#### Find the least common multiple of two integers.
+**Input:** Two integers a and b (1<=a,b<=2*10^9).
+**Output:** The least common multiple of a and b.
