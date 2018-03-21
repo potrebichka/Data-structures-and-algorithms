@@ -7,3 +7,8 @@
 #### Given an integer n, find the nth Fibonacci number Fn.
 **Input:** A single integer n.
 **Output:** Fibonacci number Fn. 
+
+## 3. Last digit of a large Fibonacci number
+#### Find the last digit on the nth Fibonacci number.
+**Input:** A single integer n (0<=n<=10^7).
+**Output:** The last digit of Fn.
