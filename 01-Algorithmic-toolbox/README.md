@@ -57,4 +57,4 @@ contains integers vi and wi — the value and the weight of i-th item, respectiv
 n pairs (ai,bj) such that the sum of their product is maximized.
 **Input:** The first line contains an integer n, the second one contains a sequence of 
 integers a1,a2...an, the third one contains a sequence of integers b1,b2...bn.
-**Output:** The maximum value of $\sum_{i=1}^{n} a_i*c_i.
+**Output:** The maximum value of $\sum_{i=1}^{n} a_i*c_i$
