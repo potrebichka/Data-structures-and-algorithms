@@ -52,9 +52,41 @@ contains integers vi and wi — the value and the weight of i-th item, respectiv
 **Output:** The maximal value of fractions of items that fit into the knapsack.
 
 ## 3-3. Maximum advertisement revenue.
-####. Given two sequences a1,a2...an (ai is the profit per click of the i-th ad) and b1,b2..bn 
+#### Given two sequences a1,a2...an (ai is the profit per click of the i-th ad) and b1,b2..bn 
 (bi is the average number of clicks per day of the i-th slot), we need to partition them into 
 n pairs (ai,bj) such that the sum of their product is maximized.
 **Input:** The first line contains an integer n, the second one contains a sequence of 
 integers a1,a2...an, the third one contains a sequence of integers b1,b2...bn.
 **Output:** The maximum value of \sum_{i=1}^{n} a_i*c_i.
+
+## 3-4. Collecting signatures.
+#### Given a set of n segments {[a_0, b_0], [a_1, b_1], . . . , [a_n−1, b_n−1]} with integer coordinates on a line, find
+the minimum number m of points such that each segment contains at least one point. That is, find a
+set of integers X of the minimum size such that for any segment [a_i, b_i] there is a point x 
+E X such that a_i ≤ x ≤ b_i.
+**Input:** The first line of the input contains the number n of segments. Each of the 
+following n lines contains two integers a_i and b_i (separated by a space) defining the 
+coordinates of endpoints of the i-th segment.
+**Output:** Output the minimum number m of points on the first line and the integer 
+coordinates of m points (separated by spaces) on the second line. You can output the points in 
+any order. If there are many such sets of points, you can output any set.
+
+## 3-5. Maximum number of prizes.
+#### You are organizing a funny competition for children. As a prize fund you have n candies. 
+You would like to use these candies for top k places in a competition with a natural 
+restriction that a higher place gets a larger number of candies. To make as many children 
+happy as possible, you are going to find the largest value of k for which it is possible.
+**Input:** A single integer n.
+**Output:** In the first line, output the maximum number k such that n can be represented as 
+a sum of k pairwise distinct positive integers. In the second line, output k pairwise 
+distinct positive integers that sum up to n (if there are many such representations, output 
+any of them).
+
+## 3-6. Maximum salary.
+#### As the last question of a successful interview, your boss gives you a few pieces of paper
+with numbers on it and asks you to compose a largest number from these numbers. The
+resulting number is going to be your salary, so you are very much interested in maximizing
+this number.
+**Input:** The first line of the input contains an integer n. The second line contains 
+integers a_1, a_2, . . . , a_n.
+**Output:** The largest number that can be composed out of a_1, a_2,...a_n.
