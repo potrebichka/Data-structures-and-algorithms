@@ -90,3 +90,11 @@ this number.
 **Input:** The first line of the input contains an integer n. The second line contains 
 integers a_1, a_2, . . . , a_n.
 **Output:** The largest number that can be composed out of a_1, a_2,...a_n.
+
+## 4-1. Binary search.
+#### Implement binary search algorithm.
+**Input:** The first line of the input contains an integer n and a sequence a_0 < a_1 < . . . 
+< a_n−1 of n pairwise distinct positive integers in increasing order. The next line contains 
+an integer k and k positive integers b_0, b_1, . . . , b_n−1.
+**Output:** For all i from 0 to k-1, output an index 0<=j<=n-1 such that a_j=b_i or -1 if 
+there is no such index.
