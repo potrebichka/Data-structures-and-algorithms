@@ -98,3 +98,45 @@ integers a_1, a_2, . . . , a_n.
 an integer k and k positive integers b_0, b_1, . . . , b_n−1.
 **Output:** For all i from 0 to k-1, output an index 0<=j<=n-1 such that a_j=b_i or -1 if 
 there is no such index.
+
+## 4-2. Majority element.
+#### Check whether an input sequence contains a majority element.
+**Input:** The first line contains an integer n, the next one contains a sequence of n non-negative
+integers a_0, a_1, . . . , a_n−1.
+**Output**: Output 1 if the sequence contains an element that appears strictly more than n/2 
+times, and 0 otherwise.
+
+## 4-3. Improving Quick Sort.
+#### Redesign a given implementation of the randomized quick sort algorithm so that it works 
+fast even on sequences containing many equal elements.New partition procedure should partition 
+the array into three parts: <x part, =x part, >part.
+**Input:** The first line of the input contains an integer n. The next line contains a 
+sequence of n integers a_0, a_1, . . . , a_n−1.
+**Output:** Sequence sorted in non-decreasing order.
+
+## 4-4. Number of inversions.
+#### An inversion of a sequence a_0, a_1, . . . , a_n−1 is a pair of indices 0 ≤ i < j < n 
+such that a_i > a_j . The number of inversions of a sequence in some sense measures how
+close the sequence is to being sorted. For example, a sorted (in non-descending order) 
+sequence contains no inversions at all, while in a sequence sorted in descending order any 
+two elements constitute an inversion (for a total of n(n − 1)/2 inversions).
+Input:** The first line of the input contains an integer n. The next line contains a
+sequence of n integers a_0, a_1, . . . , a_n−1.
+**Output:** Number of inversions in the sequence.
+
+## 4-5. Organizing a Lottery.
+#### Given a set of points on a line and a set of segments on a line. The goal is to compute, 
+for each point, the number of segments that contain this point.
+**Input:** The first line contains two non-negative integers s and p defining the number of 
+segments and the number of points on a line, respectively. The next s lines contain two 
+integers a_i, b_i defining the i-th segment [a_i, b_i]. The next line contains p integers 
+defining points x_1, x_2, . . . , x_p.
+**Output:** P non-negative integers k_0, k_1, . . . , k_p−1 where k_i is the number of 
+segments which contain x_i. More formally, k_i = |{j : a_j ≤ x_i ≤ b_j}| .
+
+## 4-6. Closest points.
+#### Given n points on a plane, find the smallest distance between a pair of two (different) 
+points.
+**Input:** The first line contains the number n of points. Each of the following n lines 
+defines a point (x_i, y_i).
+**Output:** The minimum distance.
