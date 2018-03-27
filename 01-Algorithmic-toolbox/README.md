@@ -60,10 +60,10 @@ integers a1,a2...an, the third one contains a sequence of integers b1,b2...bn.
 **Output:** The maximum value of \sum_{i=1}^{n} a_i*c_i.
 
 ## 3-4. Collecting signatures.
-#### Given a set of n segments {[a_0, b_0], [a_1, b_1], . . . , [a_n−1, b_n−1]} with integer coordinates on a line, find
-the minimum number m of points such that each segment contains at least one point. That is, find a
-set of integers X of the minimum size such that for any segment [a_i, b_i] there is a point x 
-E X such that a_i ≤ x ≤ b_i.
+#### Given a set of n segments {[a_0, b_0], [a_1, b_1], . . . , [a_n−1, b_n−1]} with integer 
+coordinates on a line, find the minimum number m of points such that each segment contains at 
+least one point. That is, find a set of integers X of the minimum size such that for any 
+segment [a_i, b_i] there is a point x E X such that a_i ≤ x ≤ b_i.
 **Input:** The first line of the input contains the number n of segments. Each of the 
 following n lines contains two integers a_i and b_i (separated by a space) defining the 
 coordinates of endpoints of the i-th segment.
@@ -83,10 +83,10 @@ distinct positive integers that sum up to n (if there are many such representati
 any of them).
 
 ## 3-6. Maximum salary.
-#### As the last question of a successful interview, your boss gives you a few pieces of paper
-with numbers on it and asks you to compose a largest number from these numbers. The
+#### As the last question of a successful interview, your boss gives you a few pieces of 
+paper with numbers on it and asks you to compose a largest number from these numbers. The 
 resulting number is going to be your salary, so you are very much interested in maximizing
-this number.
+this number. 
 **Input:** The first line of the input contains an integer n. The second line contains 
 integers a_1, a_2, . . . , a_n.
 **Output:** The largest number that can be composed out of a_1, a_2,...a_n.
@@ -108,8 +108,8 @@ times, and 0 otherwise.
 
 ## 4-3. Improving Quick Sort.
 #### Redesign a given implementation of the randomized quick sort algorithm so that it works 
-fast even on sequences containing many equal elements.New partition procedure should partition 
-the array into three parts: <x part, =x part, >part.
+fast even on sequences containing many equal elements.New partition procedure  should 
+partition the array into three parts: <x part, =x part, >part.
 **Input:** The first line of the input contains an integer n. The next line contains a 
 sequence of n integers a_0, a_1, . . . , a_n−1.
 **Output:** Sequence sorted in non-decreasing order.
