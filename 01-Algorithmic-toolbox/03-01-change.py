@@ -7,11 +7,11 @@ def get_change(m):
     coins = [10, 5, 1]
     #result's list
     count = 0
-    for i in len(0, len(coins)):
-        if m == 0:
-            return count
-	    count += number/coins[i];
-		m = m % coins[i];
+
+    while m > 0:
+        for coin in coins:
+            count += number//coin;
+            m = m % coin;
     return count
 
 #m = int(raw_input("Input the value of money to change in coins 1<=m<=10^3: "))

@@ -182,3 +182,66 @@ points.*
 defines a point (x_i, y_i).
 
 **Output:** The minimum distance.
+
+## 5-1. Money Change Again.
+*A natural greedy strategy for the change problem does not work correctly for any set of
+denominations. For example, if the available denominations are 1, 3, and 4, the greedy 
+algorithm will change 6 cents using three coins (4 + 1 + 1) while it can be changed using 
+just two coins (3 + 3). Goal now is to apply dynamic programming for solving the Money Change 
+Problem for denominations 1, 3, and 4.*
+
+**Input:** Integer money.
+
+**Output:** The minimum number of coins with denominations 1, 3, 4 that changes money.
+
+## 5-2. Primitive calculator.
+*Given a primitive calculator that can perform the following three operations with the current 
+number x: multiply x by 2, multiply x by 3, or add 1 to x. Goal is given a positive integer 
+n, find the minimum number of operations needed to obtain the number n starting from the 
+number 1.*
+
+**Input:** Single integer 1<=n<=10^6.
+
+**Output:** In the first line, output the minimum number 𝑘 of operations needed to get n from 
+1. In the second line output a sequence of intermediate numbers. That is, the second line should 
+contain positive integers a_0, a_2, . . . , a_k−1 such that a_0 = 1, a_k−1 = n and for all 
+0 ≤ i < k − 1, a_i+1 is equal to either a_i+1, 2a_i, or 3a_i. If there are many such 
+sequences, output any one of them.
+
+## 5-3. Edit distance.
+*Implement the algorithm for computing the edit distance between two strings. 
+The edit distance between two strings is the minimum number of operations 
+(insertions, deletions, and substitutions of symbols) to transform one string 
+into another.*
+
+**Input:** Each of the two lines of the input contains a string consisting of 
+lower case latin letters.
+
+**Output:** The edit distance between the given two strings.
+
+## 5-4. Placing parentheses.
+*Find the maximum value of an arithmetic expression by specifying the order of 
+applying its arithmetic operations using additional parentheses.*
+
+**Input:**  A string s of length 2n + 1 for some n, with symbols s_0, s_1, . . 
+., s_2n. Each symbol at an even position of s is a digit (that is, an integer 
+from 0 to 9) while each symbol at an odd position is one of three operations 
+from {+,-,*}.
+
+**Output:**  Maximum value of expression
+
+## 5-5. Longest common subsequence if three sequences.
+*Compute the length of a longest common subsequence of three sequences. Given 
+three sequences A = (a_1, a_2, . . . , a_n), B = (b_1, b_2, . . . , b_m) and 
+C = (c_1, c_2, . . . , c_l), find the length of their longest common 
+subsequence, i.e., the largest non-negative integer p such that there
+exist indices 1 ≤ i_1 < i_2 < · · · <= i_p ≤ n, 1 ≤ j_1 < j_2 < · · · < j_p 
+≤ m, 1 ≤ k_1 < k_2 < · · · < k_p ≤ l such that a_i1 = b_j1 = c_k1 , . . . , 
+a_ip = b_jp = c_kp.*
+
+**Input:** First line: n. Second line: a_1, a_2, . . . , a_n. Third line: m. 
+Fourth line: b_1, b_2, . . . , b_m. Fifth line: l. Sixth line: c_1, c_2, . . . 
+, c_l.
+
+**Output:** p
+
