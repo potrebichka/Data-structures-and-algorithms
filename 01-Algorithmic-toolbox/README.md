@@ -245,3 +245,14 @@ Fourth line: b_1, b_2, . . . , b_m. Fifth line: l. Sixth line: c_1, c_2, . . .
 
 **Output:** p
 
+## 6-1. Maximum amount of gold.
+*Given n gold bars, find the maximum of gold that fits into a bag of 
+capacity W.*
+
+**Input:** First line: capacity W and the number n of bars of gold. 
+Second line: n integers w_0, w_1, ..., w_n-1 defining the weights of the 
+bars of gold
+
+**Output:** The maximum weight of gold that fits into a knapsack of 
+capacity W.
+
