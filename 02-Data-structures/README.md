@@ -1,4 +1,4 @@
-##1-1. Check brackets in the code.
+## 1-1. Check brackets in the code.
 *Implement a feature for a text editor to find errors in the usage of brackets in the
 code.*
 
@@ -9,7 +9,7 @@ quotes). Otherwise, output the 1-based index of the first unmatched closing brac
 if there are no unmatched closing brackets, output the 1-based index of the first 
 unmatched opening bracket.
 
-##1-2. Compute tree height.
+## 1-2. Compute tree height.
 * You are given a description of a rooted tree. Your task is to compute and output its 
 height. Recall that the height of a (rooted) tree is the maximum depth of a node, or the 
 maximum distance from a leaf to the root. You are given an arbitrary tree, not necessarily 
@@ -23,7 +23,7 @@ tree.
 
 **Output:** The height of the tree.
 
-##1-3. Network packet processing simulation.
+## 1-3. Network packet processing simulation.
 *Implement a program to simulate the processing of network packets.*
 
 **Input:** The first line of the input contains the size S of the buffer and the number n 

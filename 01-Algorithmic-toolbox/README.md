@@ -20,7 +20,7 @@ integers.*
 **Output:** The last digit of Fn.
 
 
-## 2-3. Greatest commot divisor
+## 2-3. Greatest common divisor
 *Find the greatest common divisor of two integers.*
 
 **Input:** Two integers a and b (1<=a,b<=2*10^9).
