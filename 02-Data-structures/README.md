@@ -36,3 +36,61 @@ the packet which is earlier in the input is considered to have arrived earlier).
 **Output:** For each packet output either the moment of time (in milliseconds) when the 
 processor began processing it or −1 if the packet was dropped (output the answers for the 
 packets in the same order as the packets are given in the input). 
+
+## 2-1. Convert array into heap 
+*In this problem you will convert an array of integers into a heap. 
+This is the crucial step of the sorting algorithm called HeapSort. It 
+has guaranteed worst-case running time of (n log n) as opposed to 
+QuickSort’s average running time of O(n log n).*
+
+**Input:** The first line of the input contains single integer n. The 
+next line contains n space-separated integers a_i.
+
+**Output:** The first line of the output should contain single integer 
+m - the total number of swaps. m must satisfy conditions 0 ≤ m ≤ 4n. 
+The next m lines should contain the swap operations used to convert the 
+array a into a heap. Each swap is described by a pair of integers i,j — 
+the 0-based indices of the elements to be swapped. After applying all 
+the swaps in the specified order the array must become a heap, that is, 
+for each i where 0 ≤ i ≤ n − 1 the following conditions must be true:
+1. If 2i + 1 ≤ n − 1, then a_i < a_2i+1.
+2. If 2i + 2 ≤ n − 1, then a_i < a_2i+2.
+
+## 2-2. Parallel processing
+*You have a program which is parallelized and uses n independent 
+threads to process the given list of m jobs. Threads take jobs in the 
+order they are given in the input. If there is a free thread, it 
+immediately takes the next job from the list. If a thread has started 
+processing a job, it doesn’t interrupt or stop until it finishes 
+processing the job. If several threads try to take jobs from the list
+simultaneously, the thread with smaller index takes the job. For each 
+job you know exactly how long will it take any thread to process this 
+job, and this time is the same for all the threads. You need to
+determine for each job which thread will process it and when will it 
+start processing.*
+
+**Input:** The first line of the input contains integers n and m. The 
+second line contains m integers t_i — the times in seconds it takes any 
+thread to process i-th job. The times are given in the same order as 
+they are in the list from which threads take jobs. Threads are indexed 
+starting from 0.
+
+**Output:** Output exactly m lines. i-th line (0-based index is used) 
+should contain two space-separated integers — the 0-based index of the 
+thread which will process the i-th job and the time in seconds when it 
+will start processing that job.
+
+## 2-3. Merging tables
+*Goal is to simulate a sequence of merge operations with tables in a 
+database.*
+
+**Input:** The first line of the input contains two integers n and m — 
+the number of tables in the database and the number of merge queries to 
+perform, respectively. The second line of the input contains n 
+integers r_i — the number of rows in the i-th table. Then follow m lines 
+describing merge queries. Each of them contains two integers 
+destination_i and source_i — the numbers of the tables to merge.
+
+**Output:** For each query print a line containing a single integer — 
+the maximum of the sizes of all tables (in terms of the number of rows) 
+after the corresponding operation.
