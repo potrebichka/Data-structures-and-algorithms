@@ -16,8 +16,8 @@ maximum distance from a leaf to the root. You are given an arbitrary tree, not n
 a binary tree.*
 
 **Input:** The first line contains the number of nodes n. The second line contains n 
-integer numbers from −1 to n−1 — parents of nodes. If the i-th one of them (0 ≤ i ≤ n−1)  
-is −1, node i is the root, otherwise it’s 0-based index of the parent of i-th node. It is 
+integer numbers from −1 to n−1 — parents of nodes. If the i-th one of them (0 ≤ 
+i ≤ n−1) is −1, node i is the root, otherwise it’s 0-based index of the parent of i-th node. It is 
 guaranteed that there is exactly one root. It is guaranteed that the input represents a 
 tree.
 
@@ -94,3 +94,31 @@ destination_i and source_i — the numbers of the tables to merge.
 **Output:** For each query print a line containing a single integer — 
 the maximum of the sizes of all tables (in terms of the number of rows) 
 after the corresponding operation.
+
+## 3.1 Phone book.
+*In this task your goal is to implement a simple phone book manager. It should 
+be able to process the following types of user’s queries: add number name, del 
+number, find number.*
+
+**Input:** A single integer N in the first line — the number of queries. It’s 
+followed by N lines, each of them contains one query in the format described 
+above.
+
+**Output:** Print the result of each find query — the name corresponding to the 
+phone number or “not found" (without quotes) if there is no person in the phone 
+book with such phone number. Output one result per line in the same order as 
+the find queries are given in the input.
+
+#3-2. Hasing with chains.
+*Implement a hash table with lists chaining. You already given the number of 
+buckets m and the hash function. Your program should support the following kinds 
+of queries: add S, del S, find S, check i.*
+
+**Input:** There is a single integer m in the first line — the number of 
+buckets you should have. The next line contains the number of queries N. It’s 
+followed by N lines, each of them contains one query in the format described 
+above.
+
+**Output:** Print the result of each of the find and check queries, one result 
+per line, in the same order as these queries are given in the input.
+
