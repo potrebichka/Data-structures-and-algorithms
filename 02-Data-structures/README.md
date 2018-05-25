@@ -122,3 +122,82 @@ above.
 **Output:** Print the result of each of the find and check queries, one result 
 per line, in the same order as these queries are given in the input.
 
+## 4-1. Binary tree traversals.
+*You are given a rooted binary tree. Build and output its in-order, pre-order 
+and post-order traversals.*
+
+**Input:** The first line contains the number of vertices n. The vertices of 
+the tree are numbered from 0 to n−1. Vertex 0 is the root.
+The next n lines contain information about vertices 0, 1, ..., n−1 in order. 
+Each of these lines contains three integers key_i, left_i and right_i — key_i 
+is the key of the i-th vertex, left_i is the index of the left child of the 
+i-th vertex, and right_i is the index of the right child of the i-th vertex. 
+If i doesn’t have left or right child (or both), the corresponding left_i or 
+right_i or both) will be equal to −1.
+
+**Output:** Print three lines. The first line should contain the keys of the 
+vertices in the in-order traversal of the tree. The second line should contain 
+the keys of the vertices in the pre-order traversal of the tree. The third line 
+should contain the keys of the vertices in the post-order traversal of the 
+tree.
+
+## 4-2. Is it a binary search tree?
+*You need to test whether it is a correct binary search tree.*
+
+**Input:** The first line contains the number of vertices n. The vertices of 
+the tree are numbered from 0 to n−1. Vertex 0 is the root. The next n lines 
+contain information about vertices 0, 1, ..., n−1 in order. Each of these lines 
+contains three integers key_i, left_i and right_i - key_i is the key of the 
+i-th vertex, left_i is the index of the left child of the i-th vertex, and 
+right_i is the index of the right child of the i-th vertex. If i doesn’t have  
+left or right child (or both), the corresponding left_i or right_i (or both) 
+will be equal to −1.
+
+**Output:** . If the given binary tree is a correct binary search tree (see the 
+definition in the problem description), output one word “CORRECT” (without 
+quotes). Otherwise, output one word “INCORRECT” (without quotes).
+
+## 4-3. Is it binary search tree? Hard version.
+*To solve the same problem as the previous one, but for a more general case,
+when binary search tree may contain equal keys.*
+
+**Input:** The first line contains the number of vertices n. The vertices of 
+the tree are numbered from 0 to n−1. Vertex 0 is the root. The next n lines 
+contain information about vertices 0, 1, ..., n−1 in order. Each of these lines 
+contains three integers key_i, left_i and right_i - key_i is the key of the  
+i-th vertex, left_i is the index of the left child of the i-th vertex, and 
+right_i is the index of the right child of the i-th vertex. If i doesn’t have 
+left or right child (or both), the corresponding left_i or right_i (or both) 
+will be equal to −1.
+
+**Output:** If the given binary tree is a correct binary search tree (see the 
+definition in the problem description), output one word “CORRECT” (without 
+quotes). Otherwise, output one word “INCORRECT” (without quotes).
+
+## 4-4. Set with range sums.
+*Implement a data structure to store a set of integers and quickly compute range 
+sums.*
+
+**Input:** Initially the set S is empty. The first line contains n — the 
+number of operations. The next n lines contain operations. Each operation is one 
+of the following:
+∙ “+ i" — which means add some integer (not i, see below) to S,
+∙ “- i" — which means del some integer (not i, see below) from S,
+∙ “? i" — which means find some integer (not i, see below) in S,
+∙ “s l r" — which means compute the sum of all elements of 𝑆 within some range 
+of values (not from l to r, see below).
+However, to make sure that your solution can work in an online fashion, each 
+request will actually depend on the result of the last sum request. Denote M = 1 
+000 000 001. At any moment, let x be the result of the last sum operation, or 
+just 0 if there were no sum operations before. Then
+∙ “+ i" means add((i + x) mod M),
+∙ “- i" means del((i + x) mod M),
+∙ “? i" means find((i + x) mod M),
+∙ “s l r" means sum((l + x) mod M,(r + x) mod M).
+
+**Output:** For each find request, just output “Found" or “Not found" (without 
+quotes; note that the first letter is capital) depending on whether (i + x) mod 
+M is in S or not. For each sum query, output the sum of all the values v in S 
+such that ((l+x) mod M) ≤ v ≤ ((r+x) mod M) (it is guaranteed that in all the 
+tests ((l+x) mod M) ≤ ((r+x) mod M)), where x is the result of the last sum 
+operation or 0 if there was no previous sum operation.
