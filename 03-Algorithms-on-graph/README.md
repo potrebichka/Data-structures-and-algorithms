@@ -32,3 +32,18 @@
 **Input:** A graph.
 
 **Output:** The number of strongly connected components.
+
+##3-1. Computing the Minimum Number of Flight Segments.
+*Given an undirected graph with n vertices and m edges and two vertices u and v, compute the length of a
+shortest path between u and v.*
+
+**Input:** A graph. The next line contains two vertices u and v.
+
+**Output:** The minimum number of edges in a path from u to v, or -1 if there is no path.
+
+##3-2. Checking whether a Graph is Bipartite.
+*Given an undirected graph with n vertices and m edges, check whether it is bipartite.*
+
+**Input:** An undirected graph.
+
+**Output:** 1 if the graph is bipartite and 0 otherwise.
