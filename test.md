@@ -3,15 +3,16 @@
 </h1>
 
 <p style="text-align: center;">
-425-5296130    potrebich@gmail.com       Bellevue, WA 98006 
-</p>   
-PROFILE
+425-5296130  /  potrebich@gmail.com    /   Bellevue, WA 98006 
+</p> 
+  
+## PROFILE
 
 Entry Level Software Developer enthusiastic about developing practical and time-saving software solutions and applying principles and techniques of computer science and engineering. Translate problem solving techniques into code. Quickly grasp new technologies and concepts; work in both team and self-directed settings with strong analytical thinking and organizational skills. Offer multi-lingual communication skills: English, Russian, Ukrainian, German. 
 
-Portfolio (front-end development projects): https://codepen.io/Asenok_n/pen/GOoNeZ
-LinkedIn: https://www.linkedin.com/in/nina-potrebich-042815137/
-GitHub (solving of algorithmic challenges): https://github.com/potrebichka
+**Portfolio** (front-end development projects): [https://codepen.io/Asenok_n/pen/GOoNeZ]
+**LinkedIn:** [https://www.linkedin.com/in/nina-potrebich-042815137/]
+**GitHub** (solving of algorithmic challenges): [https://github.com/potrebichka]
 
 TECHNICAL SKILLS AND EXPERIENCE
 ?	Programming languages: Python, JavaScript; familiarity with Bash scripting
@@ -32,11 +33,11 @@ EDUCATION
 
 Master degree, Engineering, Industrial Process Control and Automation, 2010
 Bachelor degree, Engineering and Technology, Heat-Power Engineering, 2008
-National Research University ìMoscow Power Engineering Instituteî, Moscow, Russia
+National Research University ‚ÄúMoscow Power Engineering Institute‚Äù, Moscow, Russia
 
 PROFESSIONAL BACKGROUND
-Electrical Design Engineer, 2011 ñ 2012
+Electrical Design Engineer, 2011 ‚Äì 2012
 Energoavtomatika, Moscow, Russia
 
-Electrical Engineer, 2009 ñ 2011
+Electrical Engineer, 2009 ‚Äì 2011
 ORGRES, Moscow, Russia
