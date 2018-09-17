@@ -8,7 +8,7 @@
   
 ## PROFILE
 
-Entry Level Software Developer enthusiastic about developing practical and time-saving software solutions and applying principles and techniques of computer science and engineering. Translate problem solving techniques into code. Quickly grasp new technologies and concepts; work in both team and self-directed settings with strong analytical thinking and organizational skills. Offer multi-lingual communication skills: English, Russian, Ukrainian, German. 
+Junior Level Software Developer enthusiastic about developing practical and time-saving software solutions and applying principles and techniques of computer science and engineering. Translate problem solving techniques into code. Quickly grasp new technologies and concepts; work in both team and self-directed settings with strong analytical thinking and organizational skills. Offer multi-lingual communication skills: English, Russian, Ukrainian, German. 
 
 **Portfolio** (front-end development projects): https://codepen.io/Asenok_n/pen/GOoNeZ
 
