@@ -61,3 +61,28 @@ another string.*
 appear in Text2. (Multiple solutions may exist, in which case you may 
 return any one.)
 
+## 2-1. Construct the Burrows-Wheeler Transform of a String.
+*Construct the Burrows_Wheeler transform of a string.*
+
+**Input:** A string Text ending with a "$" symbol.
+
+**Output:** BWT(Text).
+
+## 2-2. Reconstruct a String from its Burrows-Wheeler Transform.
+
+**Input:** A string *Transform* with a single "$" sign.
+
+**Output:** The string *Text* such that BWT(*Text*) = *Transform*.
+
+## 2-3. Implement BetterBWMatching.
+*Implement BetterBWMAtching algorithm.*
+
+**Input:** A string *BWT(Text)*, followed by an integer *n* and a collection of *n* strings *Patterns* = *{p_1,...,p_n}* (on one line separated by space).
+
+**Output:** A list of integers, where *i*-th integer corresponds to the number of substring matches of the *i*-th member of *Patterns* in *Text*.
+
+## 2-4. Construct the Suffix Array of a String.
+
+**Input:** A string *Text* ending with a "$" symbol.
+
+**Output:** *SuffixArray*(*Text*), that is, the list of starting positions (0-based) of sorted suffixes separated by spaces.
