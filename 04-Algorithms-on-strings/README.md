@@ -86,3 +86,29 @@ return any one.)
 **Input:** A string *Text* ending with a "$" symbol.
 
 **Output:** *SuffixArray*(*Text*), that is, the list of starting positions (0-based) of sorted suffixes separated by spaces.
+
+## 3-1. Find All Occurrences of a Pattern in a String.
+
+**Input:** Strings *Pattern* and *Genome*.
+
+**Output:** All starting positions in *Genome* where *Pattern* appears as a substring (using 0-based indexing as usual.
+
+## 3-2. Construct the Suffix Array of a Long String.
+
+**Input:** A string *Text* ending with a "$" symbol.
+
+**Output:** *SuffixArray*(*Text*), that is, the list of starting positions of sorted suffixes separated by spaces.
+
+## 3-3. Pattern Matching with the Suffix Array.
+*Find all occurrences of a given collection of patterns in a string.*
+
+**Input:** The first line contains a string *Text*. The second line specifies an integer *n*. The last line gives a collection of *n* strings *Patterns* = {*p_1*, ..., *p_n*} separated by spaces. 
+
+**Output:** All starting positions (in any order) in *Text* where a pattern appears as a substring. If several patterns occur at the same position of the *Text*, still output this position only **once**.
+
+## 3-4. Construct the Suffix Tree from the Suffix Array.
+*Construct a suffix tree from the suffix array and LCP array of a string.*
+
+**Input:** The first line contains a string *Text* ending with a "$" symbol, the second line contains *SuffixArray*(*Text*) as a list of |*Text*| integers separated by spaces, the last line contains *LCP*(*Text*) as a list of |*Text*|-1 integers separated by spaces.
+
+**Output:** *Text* from the input on the first line. Then output all the edges of the suffix tree in a specific order, each on its own line. Output each edges as a pair of integers (*start*, *end*), where *start* is the position in *Text* corresponding to the start of the edge label substring in the *Text* and *end* is the position right after the end of the edge label in the *Text*.
